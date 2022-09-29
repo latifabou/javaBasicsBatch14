@@ -12,7 +12,7 @@ public class InputFromKeyboard4 {
 		System.out.println("Please entre your age");
 		int age=scanner.nextInt();//takes an int from the keyboard and 
 		//stores it in age variable.
-	 System.out.println("hi "+name+" "+you are "+age+"years old");
+	 System.out.println("hi "+name+" "+"you are "+age+"years old");
 		
 
 	}
