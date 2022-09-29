@@ -1,0 +1,42 @@
+Type casting(only for primitives) is converting one data type to another data type
+for example we can convert a short to byte a long to float etc.
+There are two main type casting:
+-Implicit/automatic/widening:when Java converts a data type for, it only happens when we assign
+a smaller data type to a larger data type. Because there is no data loss in this conversion.
+-Explicit/manual/narrowing: when we convert a larger data type to a small data type. we have
+to do explicitly or manually.
+Why we should learn about type casting?
+when we write code in our real life, most of the time, we use other people'code to save time
+and we might also need to convert the data type to make our code compatible with their code.
+What is the syntax of type casting?
+we use() and inside the()we write the destination data type.
+for example:
+ long var1=250;
+ int var2=(int)var1;// it's explicit/manual/narrowing
+ double var3=var2;// it't implicit/automatic/widening
+
+ float f=250.5f;
+ double d=f//it't implicit/automatic/widening
+ ===================================================================================================
+ If else conditions:help us write code that can take the decision based on data.
+ Why we should learn about if else?
+  Because, when we are solving a real life problem like testing a website our programs need to make
+ a lot of decisions
+ if(the given username and password matches)(go to the home page)else(give user a warning).
+ if(video is freezing)System.out.println("stop the video") else (keep the video).
+ What is the syntax for if else conditions?
+ boolean isHungry=true;
+ if(isHungry)
+ {System.out.prinln("please eat something")
+ }else
+ {System.out.println("lest's build some java programs")
+ }
+========================================================================================================
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
